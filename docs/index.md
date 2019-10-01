@@ -1,4 +1,4 @@
-# Interacão Humano Computador
+# Lance
 
 ## Integrantes
 

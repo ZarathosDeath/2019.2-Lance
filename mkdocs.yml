@@ -13,3 +13,4 @@ repo_url: 'https://github.com/Interacao-Humano-Computador/2019.2-Lance'
 
 plugins:
     - search
+    - awesome-pages
