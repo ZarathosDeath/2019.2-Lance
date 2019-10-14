@@ -1,5 +1,5 @@
 # 2019.2-Lance
-![Logo](docs/img/lance_capa.jpeg)
+![Logo](docs/img/lance_capa.png)
 
 ## Equipe
 
