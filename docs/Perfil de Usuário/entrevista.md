@@ -6,13 +6,9 @@ Entrevistas podem ser fechadas ou abertas, enquanto as fechadas são baseadas em
 
 ## Entrevista 1
 
-| Nome | Idade | Profissão |
-|  :------: | :------: | :------: |
-| Joaquim André | 44 | Reparador de transmissão automática |
-
-| Data | Hora |
-|  :------: | :------: |
-| 12/10/2019 | 13:45 | 
+| Data | Hora | Entrevistado | Idade | Profissão |
+|  :------: | :------: |  :------: | :------: | :------: |
+| 12/10/2019 | 13:45 | Joaquim André | 44 | Reparador de transmissão automática |
 
 ## Perguntas
 
