@@ -13,3 +13,7 @@ particular do usuário durante o uso do sistema.
 ### Storyboard
 
 ![storyboard](../../img/storyboard.png)
+
+### Objetivos
+
+![storyboard](../../img/objetivos.png)
