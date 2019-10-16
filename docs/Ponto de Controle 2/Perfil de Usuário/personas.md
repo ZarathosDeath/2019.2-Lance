@@ -10,11 +10,11 @@ Personas são personagens fictícios de produtos e serviços que representam as 
 
 ## Persona 1 
 
-![Persona1](../img/persona.png)
+![Persona1](../../img/persona.png)
 
 ## Persona 2       
 
-![Persona2](../img/persona_2.png)
+![Persona2](../../img/persona_2.png)
 
 ## Versionamento
 
