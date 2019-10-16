@@ -16,9 +16,15 @@ Personas são personagens fictícios de produtos e serviços que representam as 
 
 ![Persona2](../../img/persona_2.png)
 
+
+## Persona 3
+
+![Persona3](../../img/persona_3.png)
+
 ## Versionamento
 
 | Data | Versão | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
 | 12/10/2019 | 0.1 | Iniciando documento | André Lucas |
 | 13/10/2019 | 0.2 | Adição das personas 1 e 2 | André Lucas |
+| 16/10/2019 | 0.3 | Adição das personas 3 | André Lucas |
