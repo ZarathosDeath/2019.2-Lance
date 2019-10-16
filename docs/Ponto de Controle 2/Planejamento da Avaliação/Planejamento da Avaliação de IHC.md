@@ -7,3 +7,9 @@ particular do usuário durante o uso do sistema.
 ## Planejamento
 
 ### Perguntas
+
+![perguntas](../../img/perguntas_avaliação.png)
+
+### Storyboard
+
+![storyboard](../../img/storyboard.png)
