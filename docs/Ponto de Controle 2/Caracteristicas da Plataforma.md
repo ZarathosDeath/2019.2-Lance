@@ -14,13 +14,13 @@ O site do Lance! tem como principal objetivo noticiar as principais notícias do
 
 O site possui a própria plataforma de visualização de vídeos para auxiliar o usuário a entender a notícia.
 
-![Vídeo](img/videos.png)
+![Vídeo](../img/videos.png)
 
 ### - Personalização por Time
 
 Cada time que está presente na sidebar principal do site possui sua página com a paleta de cores própria do time.
 
-![Personalização](img/personalização.png)
+![Personalização](../img/personalização.png)
 
 ## Características Negativas
 
@@ -30,17 +30,17 @@ Cada time que está presente na sidebar principal do site possui sua página com
 
 * Primeira Página ao se acessar o Lance! com anúncio bloqueando todo o conteúdo.
 
-![Inicial](img/anuncioinicial.png)
+![Inicial](../img/anuncioinicial.png)
 
 * Página inicial com 3 anúncios ocupando cerca de 20% da tela e atrapalhando a visualização das notícias inferiores.
 
-![Anuncios](img/cheiodeanuncios.png)
+![Anuncios](../img/cheiodeanuncios.png)
 
 ### - Falta de Coesão
 
 A imagem abaixo demonstra como o site não possui um certo nível de coesão, na qual a parte de cima traz notícias de esporte, toda a lateral continua sendo sobre futebol, mas a parte de baixo ja está com outra temática que possui a própria paleta de cores e sem relação alguma com o resto do conteúdo.
 
-![Coesão](img/faltadecoesão.png)
+![Coesão](../img/faltadecoesão.png)
 
 ### - Design
 
