@@ -60,3 +60,5 @@ Não tirar totalmente os anúncios do site.
  
 - Priorizar a correção dos problemas encontrados e não resolvidos.
 - Sugerir correções
+
+<p align = "justify">Os problemas citados pelos usuários no protótipo de papel, foram corrigidos no protótipo de alta fidelidade.</p>
