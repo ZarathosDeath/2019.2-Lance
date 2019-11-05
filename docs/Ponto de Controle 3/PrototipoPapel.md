@@ -30,4 +30,15 @@ Nessa etapa são construidas algumas telas do site, que possibilita o usuário s
 
 # Coleta de dados
 
-<p align = "justify">Nessa parte e feito o feedback com o usuário </p>
+<p align = "justify">Nessa parte o usuário deve executar a tarefa proposta a ele.</p>
+
+# Interpretação
+
+<p align = "justify">O avaliador ou Design UX deve identificar e listar os problemas encontrados. Refinar o protótipo para corrigir os problemas mais simples.</p>
+
+# Consolidação de resultados
+
+<p align = "justify">O avaliador ou Design UX deve:</p>
+ 
+- Priorizar a correção dos problemas encontrados e não resolvidos.
+- Sugerir correções
