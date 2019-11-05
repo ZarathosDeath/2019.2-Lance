@@ -22,7 +22,11 @@ Atua como “computador” para simular as resposta da aplicação ao usuário. 
 
 # Preparação
 
-Nessa etapa são construidas algumas telas do site, que possibilita o usuário simular a navegação.
+<p align = "justify">Nessa etapa são construidas algumas telas do site, que possibilita o usuário simular a navegação. </p>
+
+```bash
+Nesse caso, simula a funcionalidade do usuário entrar no site e acompanhar os lances de algum jogo em tempo real lance a lance.
+```
 
 <img src="https://github.com/Interacao-Humano-Computador/2019.2-Lance/blob/master/docs/img/WhatsApp%20Image%202019-11-02%20at%2022.12.09.jpeg" width="auto" height="400" />
 
@@ -35,6 +39,20 @@ Nessa etapa são construidas algumas telas do site, que possibilita o usuário s
 # Interpretação
 
 <p align = "justify">O avaliador ou Design UX deve identificar e listar os problemas encontrados. Refinar o protótipo para corrigir os problemas mais simples.</p>
+
+<p align = "justify">Problemas relatados pelo usuário.<p>
+
+```bash
+Melhorar o tamanho dos cards de notícias.
+```
+
+```bash
+Melhorar a paleta de cores do site.
+```
+
+```bash
+Não tirar totalmente os anúncios do site.
+```
 
 # Consolidação de resultados
 
