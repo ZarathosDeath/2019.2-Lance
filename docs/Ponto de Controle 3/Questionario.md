@@ -23,3 +23,7 @@
 - Melhorar a paleta de cores do site.
 - Não tirar totalmente os anúncios do site.
 - Ajustar o menu lateral.
+
+## Avaliação dos resultados
+
+<p align="justify">Com base no relato de usuário, além de melhorar as funcionalidades citadas pelo mesmo, houve necessidade de melhorar outros aspectos como as heuristicas de visibiliadde e reconhecimento.</p>
