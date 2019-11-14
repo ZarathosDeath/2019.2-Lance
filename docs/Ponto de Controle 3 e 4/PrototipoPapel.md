@@ -28,9 +28,9 @@ Atua como “computador” para simular as resposta da aplicação ao usuário. 
 Nesse caso, simula a funcionalidade do usuário entrar no site e acompanhar os lances de algum jogo em tempo real lance a lance.
 ```
 
-<img src="https://github.com/Interacao-Humano-Computador/2019.2-Lance/blob/master/docs/img/WhatsApp%20Image%202019-11-02%20at%2022.12.09.jpeg" width="auto" height="400" />
+![Prototipo_papel_1](../img/WhatsApp%20Image%202019-11-02%20at%2022.12.09.jpeg)
 
-<img src="https://github.com/Interacao-Humano-Computador/2019.2-Lance/blob/master/docs/img/WhatsApp%20Image%202019-11-02%20at%2022.29.14.jpeg" width="auto" height="400" />
+![Prototipo_papel_2](../img/WhatsApp%20Image%202019-11-02%20at%2022.29.14.jpeg)
 
 # Coleta de dados
 

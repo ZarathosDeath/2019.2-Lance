@@ -12,9 +12,9 @@ Um protótipo de alta fidelidade deve se aproximar ao máximo dos aspectos visua
 
 ## 2. Protótipo de alta fidelidade
 
-Com base nas análises buscamos melhorar os principais problemas levantados em relação a usabilidade do site Lance. A partir do protótipo de papel e do planejamento da avaliação desenvolvemos o protótipo de alta fidelidade com a ferramenta **Figma**. Acesse este link para utilizar o nosso protótipo interativo: [Protótipo Lance](https://www.figma.com/file/P20DyPWi8UBMlW2FlwgCYt/2019.2-Lance?node-id=0%3A1).
+Com base nas análises buscamos melhorar os principais problemas levantados em relação a usabilidade do site Lance. A partir do protótipo de papel e do planejamento da avaliação desenvolvemos o protótipo de alta fidelidade com a ferramenta **Figma**. 
 
-### 2.1 Tela inicial do prototipo
+Acesse este link para utilizar o nosso protótipo interativo: [Protótipo Lance](https://www.figma.com/file/P20DyPWi8UBMlW2FlwgCYt/2019.2-Lance?node-id=0%3A1).
 
 ![Prototipo](../img/tela_inicial_prototipo.png)
 
