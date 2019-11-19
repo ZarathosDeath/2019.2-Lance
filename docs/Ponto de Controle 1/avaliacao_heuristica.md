@@ -9,3 +9,14 @@
 |**Pespectiva da tarefa**| * [ ] Problema principal * [ ] Problema secundário|
 |**Pespectiva do projeto**| * [ ] Problema falso * [ ] Problema verdadeiro * [ ] Não se aplica|
 |**Descrição do problema**||
+
+Task List
+
+- [X] item 1
+    * [X] item A
+    * [ ] item B
+        more text
+        + [x] item a
+        + [ ] item b
+
+* [ ] item 
