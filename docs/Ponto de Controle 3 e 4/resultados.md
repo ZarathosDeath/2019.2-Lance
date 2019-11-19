@@ -23,6 +23,12 @@ A avaliação de IHC é um momento onde o avaliador faz um julgamento de valor s
 - Procurar tabelas de classificação de futebol
 - Acessar tabela de um campeonato
 
+### Tarefa 4 - Agenda de Jogos
+- Acessar o site Lance
+- Navegar até a barra lateral e procurar o time
+- Selecionar opção de jogos
+- Visualizar agenda de jogos
+
 ## Avaliação 1
  
 | Avaliador | Avaliado |
@@ -58,3 +64,7 @@ A avaliação de IHC é um momento onde o avaliador faz um julgamento de valor s
 |O usuário aprende o fluxo de forma fácil?| |
 |Algo causou insatisfação ao usuário?| |
 |Qual o nível de satisfação do usuário?| |
+
+
+# Avaliados
+
