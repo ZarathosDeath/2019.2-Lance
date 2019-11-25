@@ -308,3 +308,95 @@ A avaliação de IHC é um momento onde o avaliador faz um julgamento de valor s
 |         O usuário aprende o fluxo de forma fácil?         |   Sim   |
 |           Algo causou insatisfação ao usuário?            |   Não   |
 |          Qual o nível de satisfação do usuário?           |    4    |
+
+## Avaliação 7
+
+| Avaliador |     Avaliado      |
+| :-------: | :---------------: |
+| Murilo Loiola | Lara Sthéfane |
+
+#### Tarefa 1
+
+|     Avaliação     |    Análise     |
+| :---------------: | :------------: |
+|  O usuário atingiu o objetivo?  | Sim |
+|  O usuário consegue seguir facilmente o fluxo das tarefas?  | Mais ou menos |
+|  O usuário aprende o fluxo de forma fácil?  | Sim |
+|  Algo causou insatisfação ao usuário?  | O usuário não conseguiu encontrar a aba de "tempo real" imediatamente e precisou procurar por algum tempo. |
+|  Qual o nível de satisfação do usuário?  | 4 |
+
+#### Tarefa 2
+
+|      Avaliação       |          Análise         |
+| :------------------: | :----------------------: |
+|  O usuário atingiu o objetivo?  | Sim |
+|  O usuário consegue seguir facilmente o fluxo das tarefas?  | Sim |
+|  O usuário aprende o fluxo de forma fácil?  | Sim |
+|  Algo causou insatisfação ao usuário?  | O usuário relatou que a aba lateral deveria permanecer "aberta" (com os times aparecendo) após entrar em um time específico. |
+|  Qual o nível de satisfação do usuário?  | 5 |
+
+#### Tarefa 3
+
+|      Avaliação       |          Análise         |
+| :------------------: | :----------------------: |
+|  O usuário atingiu o objetivo?  | Sim |
+|  O usuário consegue seguir facilmente o fluxo das tarefas?  | Não |
+|  O usuário aprende o fluxo de forma fácil?  | Sim |
+|  Algo causou insatisfação ao usuário?  | O usuário novamente teve uma leve dificuldade em encontrar a seção pedida, apesar de ter sido menor em relação a Tarefa 1. Recomendou pensar em nomes mais relevantes. |
+|  Qual o nível de satisfação do usuário?  | 5 |
+
+#### Tarefa 4
+
+|      Avaliação       |          Análise         |
+| :------------------: | :----------------------: |
+|  O usuário atingiu o objetivo?  | Sim |
+|  O usuário consegue seguir facilmente o fluxo das tarefas?  | Não |
+|  O usuário aprende o fluxo de forma fácil?  | Sim |
+|  Algo causou insatisfação ao usuário?  | Usuário relatou que não conseguiu identificar imediatamente o card referente a agenda de jogos. Disse ser muito semelhante a um card de notícias. |
+|  Qual o nível de satisfação do usuário?  | 4 |
+
+## Avaliação 8
+
+|  Avaliador   |      Avaliado       |
+| :----------: | :-----------------: |
+| Murilo Loiola | Matheus Alves |
+
+#### Tarefa 1
+
+|      Avaliação       |          Análise         |
+| :------------------: | :----------------------: |
+|  O usuário atingiu o objetivo?  | Sim |
+|  O usuário consegue seguir facilmente o fluxo das tarefas?  | Sim |
+|  O usuário aprende o fluxo de forma fácil?  | Sim |
+|  Algo causou insatisfação ao usuário?  | Não houve observações. |
+|  Qual o nível de satisfação do usuário?  | 5 |
+
+#### Tarefa 2
+
+|      Avaliação       |          Análise         |
+| :------------------: | :----------------------: |
+|  O usuário atingiu o objetivo?  | Sim |
+|  O usuário consegue seguir facilmente o fluxo das tarefas?  | Sim |
+|  O usuário aprende o fluxo de forma fácil?  | Sim |
+|  Algo causou insatisfação ao usuário?  | Usuário citou que o texto está desformatado, incomodando um pouco o aspecto visual. |
+|  Qual o nível de satisfação do usuário?  | 5 |
+
+#### Tarefa 3
+
+|      Avaliação       |          Análise         |
+| :------------------: | :----------------------: |
+|  O usuário atingiu o objetivo?  | Sim |
+|  O usuário consegue seguir facilmente o fluxo das tarefas?  | Sim |
+|  O usuário aprende o fluxo de forma fácil?  | Sim |
+|  Algo causou insatisfação ao usuário?  | Não houve observações. |
+|  Qual o nível de satisfação do usuário?  | 5 |
+
+#### Tarefa 4
+
+|      Avaliação       |          Análise         |
+| :------------------: | :----------------------: |
+|  O usuário atingiu o objetivo?  | Sim |
+|  O usuário consegue seguir facilmente o fluxo das tarefas?  | Não |
+|  O usuário aprende o fluxo de forma fácil?  | Sim |
+|  Algo causou insatisfação ao usuário?  | 4 |
+|  Qual o nível de satisfação do usuário?  | Usuário relatou que o card da agenda de jogos deveria ser destacado de forma diferente dos cards de notícia. |
