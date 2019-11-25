@@ -76,4 +76,49 @@ A avaliação de IHC é um momento onde o avaliador faz um julgamento de valor s
 |Algo causou insatisfação ao usuário?| Teve dificuldade de achar a agenda de jogos graças a falta de coerência entre o título do link e o link|
 |Qual o nível de satisfação do usuário?|3 |
 
-# Avaliados
+## Avaliação 2
+ 
+| Avaliador | Avaliado |
+|  :------: | :------: |
+| Thallys Braz | João Vitor Oliveira |
+
+#### Tarefa 1
+
+| Avaliação | Análise |
+|  :------: | :------: |
+|O usuário atingiu o objetivo?| Sim |
+|O usuário consegue seguir facilmente o fluxo das tarefas?|Sim |
+|O usuário aprende o fluxo de forma fácil?| Sim|
+|Algo causou insatisfação ao usuário?| Não |
+|Qual o nível de satisfação do usuário?| 5 |
+
+#### Tarefa 2
+
+| Avaliação | Análise |
+|  :------: | :------: |
+|O usuário atingiu o objetivo?| Sim |
+|O usuário consegue seguir facilmente o fluxo das tarefas?| Sim|
+|O usuário aprende o fluxo de forma fácil?| Sim |
+|Algo causou insatisfação ao usuário?| Não|
+|Qual o nível de satisfação do usuário?| 5 |
+
+#### Tarefa 3
+
+| Avaliação | Análise |
+|  :------: | :------: |
+|O usuário atingiu o objetivo?| Sim |
+|O usuário consegue seguir facilmente o fluxo das tarefas?| Sim |
+|O usuário aprende o fluxo de forma fácil?| Sim |
+|Algo causou insatisfação ao usuário?| Não |
+|Qual o nível de satisfação do usuário?| 4 |
+
+
+#### Tarefa 4
+
+| Avaliação | Análise |
+|  :------: | :------: |
+|O usuário atingiu o objetivo?| Sim |
+|O usuário consegue seguir facilmente o fluxo das tarefas?| Sim |
+|O usuário aprende o fluxo de forma fácil?| Sim |
+|Algo causou insatisfação ao usuário?| Não |
+|Qual o nível de satisfação do usuário?| 4 |
