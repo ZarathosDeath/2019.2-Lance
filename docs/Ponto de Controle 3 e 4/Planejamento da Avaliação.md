@@ -2,15 +2,14 @@
 
 ## 1. Objetivo
 
-A avaliação tem como objetivo identificar problemas na interação e interface do site lance que atrapalhem o usuário 
-a se informar sobre resultados, noticias, times e andamento de campeonatos. Devemos procurar soluções que ajudem o usuário a atingir seus objetivos ao acessar o site Lance.
+<p align="justify">&emsp;&emsp;A avaliação tem como objetivo identificar problemas na interação e interface do site lance que atrapalhem o usuário
+a se informar sobre resultados, noticias, times e andamento de campeonatos. Devemos procurar soluções que ajudem o usuário a atingir seus objetivos ao acessar o site Lance.</p>
 
 ## 2. Métodos Utilizados
 
-Foram utilizados dois métodos de avaliação: Investigação e Observação.
-
+<p align="justify">&emsp;&emsp;Foram utilizados dois métodos de avaliação: Investigação e Observação.
 A Investigação envolverá o uso de questionários, permitindo acesso a opiniões, expectativas e melhor análise das concepções do usuário.
-A Observação será feita por meio de análise de interações de usuários com sistema em tempo real.
+A Observação será feita por meio de análise de interações de usuários com sistema em tempo real.</p>
 
 ## 3. Escopo
 
@@ -22,12 +21,12 @@ A Observação será feita por meio de análise de interações de usuários com
 
 ### 3.2 Perfil dos Participantes
 
-Em pesquisas feitas por Jakob Nielsen, os melhores resultados vêm do teste de no máximo 5 usuários. O principal motivo é que é melhor distribuir seu orçamento para testes de usuários em muitos testes pequenos, em vez de exagerar em um único estudo elaborado.
-Contudo a avaliação deve conter no mínimo 5 participantes. 
+<p align="justify">&emsp;&emsp;Em pesquisas feitas por Jakob Nielsen, os melhores resultados vêm do teste de no máximo 5 usuários. O principal motivo é que é melhor distribuir seu orçamento para testes de usuários em muitos testes pequenos, em vez de exagerar em um único estudo elaborado.
+Contudo a avaliação deve conter no mínimo 5 participantes.</p>
 
-### 3.3 Resultados 
+### 3.3 Resultados
 
-Coletar dados através da observação do usuário ao tentar realizar as tarefas solicitadas. A avaliação deve conter os objetivos, número de usuários e o avaliador que realizou, um relatório com a análise dos dados e problemas detectados.
+<p align="justify">&emsp;&emsp;Coletar dados através da observação do usuário ao tentar realizar as tarefas solicitadas. A avaliação deve conter os objetivos, número de usuários e o avaliador que realizou, um relatório com a análise dos dados e problemas detectados.</p>
 
 ## 4. Referências
 

@@ -2,7 +2,7 @@
 
 ## 1. Avaliações do protótipo
 
-A avaliação de IHC é um momento onde o avaliador faz um julgamento de valor sobre a qualidade de uso da solução de IHC e identifica problemas na interação e na interface que prejudiquem a experiência do usuário durante o uso do sistema.
+<p align="justify">&emsp;&emsp;A avaliação de IHC é um momento onde o avaliador faz um julgamento de valor sobre a qualidade de uso da solução de IHC e identifica problemas na interação e na interface que prejudiquem a experiência do usuário durante o uso do sistema.</p>
 
 ## 2. Tarefas
 

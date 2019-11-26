@@ -1,13 +1,13 @@
 # Entrevista
 
-## 1. Introdução 
+## 1. Introdução
 
-Entrevistas podem ser fechadas ou abertas, enquanto as fechadas são baseadas em um conjunto pré-existente de perguntas e as abertas são sem script pré-definido, se adptando de acordo com o conhecimento do entrevistado.
+<p align="justify">&emsp;&emsp;Entrevistas podem ser fechadas ou abertas, enquanto as fechadas são baseadas em um conjunto pré-existente de perguntas e as abertas são sem script pré-definido, se adptando de acordo com o conhecimento do entrevistado.</p>
 
 ## Entrevista 1
 
 | Data | Hora | Entrevistador |
-|  :------: | :------: |  :------: | 
+|  :------: | :------: |  :------: |
 | 12/10/2019 | 13:45 | André Lucas |
 
 ## Perguntas
@@ -22,7 +22,7 @@ Joaquim André
 
 **3. Qual a sua profissão/ocupação?**
 
-Reparador de transmissão automática. 
+Reparador de transmissão automática.
 
 **4. Onde você costuma acompanhar notícias?**
 
@@ -42,7 +42,7 @@ Eu gostei. Embora tenha muita informação pra cabeça as matérias são boas.
 
 **8. Teve alguma dificuldade de utilizar o site?**
 
-Sim, é tanta informação que você fica perdido. Quando não aparece um anúncio que não consiso fechar e acaba que desisto de ler a notícia. 
+Sim, é tanta informação que você fica perdido. Quando não aparece um anúncio que não consiso fechar e acaba que desisto de ler a notícia.
 
 **9. Você ainda usa o Lance?**
 
@@ -50,7 +50,7 @@ Raramente. Ultimamente utilizo mais o globo.com, é mais prático.
 
 ## Entrevista 2
 
-| Data | Hora | Entrevistador | 
+| Data | Hora | Entrevistador |
 |  :------: | :------: |  :------: |
 | 13/10/2019 | 14:34 | André Lucas |
 
@@ -66,7 +66,7 @@ Igor Aragão
 
 **3. Qual a sua profissão/ocupação?**
 
-Estudante. 
+Estudante.
 
 **4. Onde você costuma acompanhar notícias?**
 
@@ -94,7 +94,7 @@ Não.
 
 ## Entrevista 2
 
-| Data | Hora | Entrevistador | 
+| Data | Hora | Entrevistador |
 |  :------: | :------: |  :------: |
 | 13/10/2019 | 15:15 | André Lucas |
 
@@ -110,7 +110,7 @@ Anderson Chaves
 
 **3. Qual a sua profissão/ocupação?**
 
-Estudante. 
+Estudante.
 
 **4. Onde você costuma acompanhar notícias?**
 

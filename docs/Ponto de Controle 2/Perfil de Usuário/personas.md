@@ -2,13 +2,13 @@
 
 ## 1. Introdução
 
-Personas são personagens fictícios de produtos e serviços que representam as necessidades de um grupo maior de usuários. Devem ser criadas com base em dados reais e atuam, nos projetos de design, como representantes dos usuários reais ajudando a equipe a tomar decisões sobre funcionalidades e design.
+<p align="justify">&emsp;&emsp;Personas são personagens fictícios de produtos e serviços que representam as necessidades de um grupo maior de usuários. Devem ser criadas com base em dados reais e atuam, nos projetos de design, como representantes dos usuários reais ajudando a equipe a tomar decisões sobre funcionalidades e design.</p>
 
 ## 2. Ferramenta utilizada
 
  [Gerador de personas](https://geradordepersonas.com.br/)
 
-## Persona 1 
+## Persona 1
 
 ![Persona1](../../img/persona.png)
 

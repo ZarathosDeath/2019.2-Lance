@@ -2,13 +2,13 @@
 
 ## 1. Introdução
 
-A análise de tarefas é um procedimento realizado com o objetivo de decompor uma tarefa complexa em seus componentes mais simples. Trata-se da análise de como uma tarefa é realizada, incluindo uma ou mais das informações a seguir: descrição detalhada tanto de atividades físicas como mentais, duração da tarefa, frequência da tarefa, complexidade da tarefa, condições ambientais, vestimenta e equipamentos necessários.
+<p align="justify">&emsp;&emsp;A análise de tarefas é um procedimento realizado com o objetivo de decompor uma tarefa complexa em seus componentes mais simples. Trata-se da análise de como uma tarefa é realizada, incluindo uma ou mais das informações a seguir: descrição detalhada tanto de atividades físicas como mentais, duração da tarefa, frequência da tarefa, complexidade da tarefa, condições ambientais, vestimenta e equipamentos necessários.</p>
 
 ## 2. Objetivos
 ### 2.1. Ver o resultado de jogos
 #### 2.1.1. **Diagrama**
 
-![Diagrama1](img/ver_resultado.png)
+![Diagrama1](../../img/ver_resultado.png)
 
 #### 2.1.2. **Especificação**
 
@@ -23,7 +23,7 @@ A análise de tarefas é um procedimento realizado com o objetivo de decompor um
 
 ### 2.2 Olhar as notícias do seu time
 #### 2.2.1 **Diagrama**
-![Diagrama2](img/ver_noticia.png)
+![Diagrama2](../../img/ver_noticia.png)
 
 #### 2.2.2. **Especificação**
 
