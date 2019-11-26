@@ -1,0 +1,871 @@
+
+
+
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copiar para área de transferência">
+      
+        <meta name="lang:clipboard.copied" content="Copiado para área de transferência">
+      
+        <meta name="lang:search.language" content="pt">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="Nenhum resultado encontrado">
+      
+        <meta name="lang:search.result.one" content="1 resultado encontrado">
+      
+        <meta name="lang:search.result.other" content="# resultados encontrados">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.5.0">
+    
+    
+      
+        <title>Princípios gerais de projeto - Lance</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/application.1b62728e.css">
+      
+        <link rel="stylesheet" href="../../../assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#4caf50">
+      
+    
+    
+      <script src="../../../assets/javascripts/modernizr.268332fc.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="green" data-md-color-accent="yellow">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#principios-gerais-de-projeto" tabindex="1" class="md-skip">
+        Ir para o conteúdo
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../../.." title="Lance" class="md-header-nav__button md-logo">
+          
+            <img src="../../../favicon.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Lance
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Princípios gerais de projeto
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Digite para iniciar a busca
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/Interacao-Humano-Computador/2019.2-Lance/" title="Ir ao repositório" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Lance
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../../.." title="Lance" class="md-nav__button md-logo">
+      
+        <img src="../../../favicon.png" width="48" height="48">
+      
+    </a>
+    Lance
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/Interacao-Humano-Computador/2019.2-Lance/" title="Ir ao repositório" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Lance
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Ponto de Controle 1
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Ponto de Controle 1
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Ponto de Controle 1/avaliacao_heuristica/" title="Avaliação Heurística" class="md-nav__link">
+      Avaliação Heurística
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Ponto de Controle 1/guiaestilo/" title="Guia de estilo" class="md-nav__link">
+      Guia de estilo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-3" type="checkbox" id="nav-2-3">
+    
+    <label class="md-nav__link" for="nav-2-3">
+      Planejamento da Avaliação
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-3">
+        Planejamento da Avaliação
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Ponto de Controle 1/Planejamento da Avaliação/Planejamento da Avaliação de IHC/" title="Planejamento da Avaliação de IHC" class="md-nav__link">
+      Planejamento da Avaliação de IHC
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      Ponto de Controle 2
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Ponto de Controle 2
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Caracteristicas da Plataforma/" title="Características da Plataforma" class="md-nav__link">
+      Características da Plataforma
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2" checked>
+    
+    <label class="md-nav__link" for="nav-3-2">
+      Analise de Tarefas
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-2">
+        Analise de Tarefas
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Princípios gerais de projeto
+      </label>
+    
+    <a href="./" title="Princípios gerais de projeto" class="md-nav__link md-nav__link--active">
+      Princípios gerais de projeto
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#visibilidade" class="md-nav__link">
+    Visibilidade
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#retorno-feedback" class="md-nav__link">
+    Retorno (feedback)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#restricao" class="md-nav__link">
+    Restrição
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mapeamento" class="md-nav__link">
+    Mapeamento
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consistencia" class="md-nav__link">
+    Consistência
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fornecimento" class="md-nav__link">
+    Fornecimento
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../tarefas/" title="Análise de Tarefas" class="md-nav__link">
+      Análise de Tarefas
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3">
+    
+    <label class="md-nav__link" for="nav-3-3">
+      Perfil de Usuário
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-3">
+        Perfil de Usuário
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Perfil de Usuário/entrevista/" title="Entrevista" class="md-nav__link">
+      Entrevista
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Perfil de Usuário/personas/" title="Personas" class="md-nav__link">
+      Personas
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Ponto de Controle 3 e 4
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Ponto de Controle 3 e 4
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Ponto de Controle 3 e 4/Planejamento da Avaliação/" title="Avaliação do Protótipo de Alta Fidelidade" class="md-nav__link">
+      Avaliação do Protótipo de Alta Fidelidade
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Ponto de Controle 3 e 4/PrototipoPapel/" title="Protótipo no Papel" class="md-nav__link">
+      Protótipo no Papel
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Ponto de Controle 3 e 4/Questionario/" title="Avaliação do Protótipo no Papel" class="md-nav__link">
+      Avaliação do Protótipo no Papel
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Ponto de Controle 3 e 4/Termo de Consentimento/" title="Termo de Consentimento Livre" class="md-nav__link">
+      Termo de Consentimento Livre
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Ponto de Controle 3 e 4/prototipo/" title="Protótipo de alta fidelidade" class="md-nav__link">
+      Protótipo de alta fidelidade
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Ponto de Controle 3 e 4/resultados/" title="Resultados da Avaliação" class="md-nav__link">
+      Resultados da Avaliação
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Ponto de Controle 5
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Ponto de Controle 5
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../Ponto de Controle 5/lighthouse/" title="Avaliação Google Lighthouse" class="md-nav__link">
+      Avaliação Google Lighthouse
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#visibilidade" class="md-nav__link">
+    Visibilidade
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#retorno-feedback" class="md-nav__link">
+    Retorno (feedback)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#restricao" class="md-nav__link">
+    Restrição
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mapeamento" class="md-nav__link">
+    Mapeamento
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consistencia" class="md-nav__link">
+    Consistência
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fornecimento" class="md-nav__link">
+    Fornecimento
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/Interacao-Humano-Computador/2019.2-Lance/edit/master/docs/Ponto de Controle 2/Analise de Tarefas/Principios.md" title="Editar esta página" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="principios-gerais-de-projeto">Princípios gerais de projeto</h1>
+<p align="justify">&emsp;&emsp;Informam o projeto e são utilizados de forma prescritiva. Sugerem o que utilizar e o que evitar na criação de interface / interação. Com isso, somente servem para dar apoio do que deve ser feito, mas não definie exatamente como tem que ser. Determinam o que o usuário deve ver a fazer ao realizar uma tarefa. O seis itens que definem os princípios de projeto são:</p>
+
+<ul>
+<li>Visibilidade</li>
+<li>Retorno (Feedback)</li>
+<li>Restrições</li>
+<li>Mapeamento</li>
+<li>Consistência</li>
+<li>Fornecimento</li>
+</ul>
+<h2 id="visibilidade">Visibilidade</h2>
+<p align="justify">&emsp;&emsp;O propósito deste princípio é manter as funções visíveis ou pelo menos facilitar a localização do controle apropriado para a tarefa com agilidade.
+Se utiliza um termo nesse tópico que segue a sigla: "WYSIWYG", que siguinifica algo como  “o que você vê é o que você tem”. Demonstrando a importância de mostrar todas as funções para o usuário. </p>
+
+<p align="justify">&emsp;&emsp;Para o site, temos como objetivo mudar algumas propagandas e posições dos cards, pois uns estão sobrepondo otros, perdendo a visibilidade e acesso de algumas partes do site.</p>
+
+<h2 id="retorno-feedback">Retorno (feedback)</h2>
+<p align="justify">&emsp;&emsp;Esse Tópico demonstra que é importante informar que o sistema esta te ouvindo, colocando de estimulos visuais a um som de clique. Assim o usuário pode se sentir mais dentro do sistema. </p>
+
+<p align="justify">&emsp;&emsp;O página em si nesse ponto consegue passar bem a mensagem de interção com o usuário em quase todos os pontos, deixando somente a desejar quando esta carregando que uns cliques nao funcionam.</p>
+
+<h2 id="restricao">Restrição</h2>
+<p align="justify">&emsp;&emsp;São formas de delimitar a ação do usuário garantindo que, em meio a uma grande quantidade de opções, ele escolha a correta para continuar a atividade. </p>
+
+<p align="justify">&emsp;&emsp;Os beneficios que isso garante são evitar diversos erros, como o lógico que diz a um erro do próprio sistema, ou até cultural.
+Por o site ser de noticias ele não tem muitas restrições a serem feitas além de garantir ir para onde o usuário acessa.</p>
+
+<h2 id="mapeamento">Mapeamento</h2>
+<p align="justify">&emsp;&emsp;Mapeamento se diz em relção a manipulação dos controles serem adequadas, de um jeito que o usuário consiga entender o que uma coisa faz.
+Muito utilizado para descrever essas ações de um jeito simples é por simbolos universais, como uma seta pode indicar para voltar para a página anterior em um local óbvio. </p>
+
+<p align="justify">&emsp;&emsp;Alguns botões do site não demonstram bem o que fazem, deixando confuso como acessar esses lugares. Alem disso não se tem uma informação certa de que parte da página você está e como voltar em alguns casos. Assim podemos botar uma barra de navegação melhor e separar em áreas especifica cada funcionalidade e tipo de informação.</p>
+
+<h2 id="consistencia">Consistência</h2>
+<p align="justify">&emsp;&emsp;Seguindo a ideia de mapeamento, consistência tem como objetivo padronizar certas tarefas. Como por exemplo um teclado de banco que tem o mesmo formato e cores adequadas para as mesmas funcionalidades.
+A inconcistência pode trazer confusão para o usuário que esta navegando, dando uma sensação de perdido. </p>
+
+<p align="justify">&emsp;&emsp;O site é bem confuso por ter varios tipos de cards com varios formatos todos agrupados de forma a não seguir um padrão. Ao mudar de pagina as cores do site inteiro se alteram e entra em formatos diferentes, causando certa confusão na hora de navegar. Ao estabalecermos um padrão para esses cards e páginas, melhoraremos a navegação.</p>
+
+<h2 id="fornecimento">Fornecimento</h2>
+<p align="justify">&emsp;&emsp;Trata das propriedades percebidas de um objeto que determinam como ele pode ser usado. Só olhando, o usuário sabe o que fazer, pois utiliza o mínimo de esforço. A partir das características do objeto, o usuário, mesmo sem o conhecer, cria uma idéia da funcionalidade do mesmo. O processo é óbvio e não precisa ser aprendido. Como por exemplo uma maçaneta, apenas ao olha você ja tem que saber que ela serve para puxar ou empurrar de acordo com seu formato. </p>
+
+<p align="justify">&emsp;&emsp;Ao entrar no site, você ja sente que está tudo meio fora do lugar, confundindo, por exemplo, a barra de navegação com alguma propaganda. Posicionar os elementos com o padrão ja conhecido por sites diferentes, como em abas, vai gerar um conforto melhor para o usuário para não ter que pensar muito para realizar ações.</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../../Caracteristicas da Plataforma/" title="Características da Plataforma" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Anterior
+                </span>
+                Características da Plataforma
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../tarefas/" title="Análise de Tarefas" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Próximo
+                </span>
+                Análise de Tarefas
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/application.a8b5e56f.js"></script>
+      
+        
+        
+          
+          <script src="../../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+              
+                <script src="../../../assets/javascripts/lunr/lunr.pt.js"></script>
+              
+            
+          
+          
+        
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../../.."}})</script>
+      
+    
+  </body>
+</html>
