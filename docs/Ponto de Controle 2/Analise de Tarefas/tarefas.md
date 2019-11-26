@@ -8,7 +8,7 @@ A análise de tarefas é um procedimento realizado com o objetivo de decompor um
 ### 2.1. Ver o resultado de jogos
 #### 2.1.1. **Diagrama**
 
-![Diagrama1](../img/ver_resultado.png)
+![Diagrama1](img/ver_resultado.png)
 
 #### 2.1.2. **Especificação**
 
@@ -23,7 +23,7 @@ A análise de tarefas é um procedimento realizado com o objetivo de decompor um
 
 ### 2.2 Olhar as notícias do seu time
 #### 2.2.1 **Diagrama**
-![Diagrama2](../img/ver_noticia.png)
+![Diagrama2](img/ver_noticia.png)
 
 #### 2.2.2. **Especificação**
 
