@@ -398,5 +398,97 @@ A avaliação de IHC é um momento onde o avaliador faz um julgamento de valor s
 |  O usuário atingiu o objetivo?  | Sim |
 |  O usuário consegue seguir facilmente o fluxo das tarefas?  | Não |
 |  O usuário aprende o fluxo de forma fácil?  | Sim |
-|  Algo causou insatisfação ao usuário?  | 4 |
-|  Qual o nível de satisfação do usuário?  | Usuário relatou que o card da agenda de jogos deveria ser destacado de forma diferente dos cards de notícia. |
+|  Algo causou insatisfação ao usuário?  | Usuário relatou que o card da agenda de jogos deveria ser destacado de forma diferente dos cards de notícia.  | Usuário relatou que o card da agenda de jogos deveria ser destacado de forma diferente dos cards de notícia. |
+|  Qual o nível de satisfação do usuário?  | 4 |
+
+## Avaliação 9
+
+|  Avaliador   |      Avaliado       |
+| :----------: | :-----------------: |
+| André Goretti | Maria Cristina Goretti |
+
+#### Tarefa 1
+
+|      Avaliação       |          Análise         |
+| :------------------: | :----------------------: |
+|  O usuário atingiu o objetivo?  | Sim |
+|  O usuário consegue seguir facilmente o fluxo das tarefas?  | Sim |
+|  O usuário aprende o fluxo de forma fácil?  | Sim |
+|  Algo causou insatisfação ao usuário?  | O Usuário Mencionou que Falta um botão para voltar para pagina inicial |
+|  Qual o nível de satisfação do usuário?  | 5 |
+
+#### Tarefa 2
+
+|      Avaliação       |          Análise         |
+| :------------------: | :----------------------: |
+|  O usuário atingiu o objetivo?  | Sim |
+|  O usuário consegue seguir facilmente o fluxo das tarefas?  | Sim |
+|  O usuário aprende o fluxo de forma fácil?  | Sim |
+|  Algo causou insatisfação ao usuário?  | Não houve observações. |
+|  Qual o nível de satisfação do usuário?  | 5 |
+
+#### Tarefa 3
+
+|      Avaliação       |          Análise         |
+| :------------------: | :----------------------: |
+|  O usuário atingiu o objetivo?  | Sim |
+|  O usuário consegue seguir facilmente o fluxo das tarefas?  | Não |
+|  O usuário aprende o fluxo de forma fácil?  | Sim |
+|  Algo causou insatisfação ao usuário?  | A tabela não estava em um lugar claro para o usuário |
+|  Qual o nível de satisfação do usuário?  | 4 |
+
+#### Tarefa 4
+
+|      Avaliação       |          Análise         |
+| :------------------: | :----------------------: |
+|  O usuário atingiu o objetivo?  | Sim |
+|  O usuário consegue seguir facilmente o fluxo das tarefas?  | Sim |
+|  O usuário aprende o fluxo de forma fácil?  | Sim |
+|  Algo causou insatisfação ao usuário?  |Não houve observações. |
+|  Qual o nível de satisfação do usuário?  | 5 |
+
+## Avaliação 10
+
+|  Avaliador   |      Avaliado       |
+| :----------: | :-----------------: |
+| André Goretti | Roberto Leão |
+
+#### Tarefa 1
+
+|      Avaliação       |          Análise         |
+| :------------------: | :----------------------: |
+|  O usuário atingiu o objetivo?  | Sim |
+|  O usuário consegue seguir facilmente o fluxo das tarefas?  | Sim |
+|  O usuário aprende o fluxo de forma fácil?  | Sim |
+|  Algo causou insatisfação ao usuário?  | O Usuário Mencionou que Falta um botão para voltar para pagina inicial |
+|  Qual o nível de satisfação do usuário?  | 5 |
+
+#### Tarefa 2
+
+|      Avaliação       |          Análise         |
+| :------------------: | :----------------------: |
+|  O usuário atingiu o objetivo?  | Sim |
+|  O usuário consegue seguir facilmente o fluxo das tarefas?  | Sim |
+|  O usuário aprende o fluxo de forma fácil?  | Sim |
+|  Algo causou insatisfação ao usuário?  | Não houve observações. |
+|  Qual o nível de satisfação do usuário?  | 5 |
+
+#### Tarefa 3
+
+|      Avaliação       |          Análise         |
+| :------------------: | :----------------------: |
+|  O usuário atingiu o objetivo?  | Sim |
+|  O usuário consegue seguir facilmente o fluxo das tarefas?  | Não |
+|  O usuário aprende o fluxo de forma fácil?  | Sim |
+|  Algo causou insatisfação ao usuário?  | Não houve observações. |
+|  Qual o nível de satisfação do usuário?  | 5 |
+
+#### Tarefa 4
+
+|      Avaliação       |          Análise         |
+| :------------------: | :----------------------: |
+|  O usuário atingiu o objetivo?  | Sim |
+|  O usuário consegue seguir facilmente o fluxo das tarefas?  | Sim |
+|  O usuário aprende o fluxo de forma fácil?  | Sim |
+|  Algo causou insatisfação ao usuário?  |Não houve observações. |
+|  Qual o nível de satisfação do usuário?  | 5 |
