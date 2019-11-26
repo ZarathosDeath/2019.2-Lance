@@ -10,13 +10,13 @@
 
 ## Características Positivas
 
-### - Integração com Vídeos
+### Integração com Vídeos
 
 O site possui a própria plataforma de visualização de vídeos para auxiliar o usuário a entender a notícia.
 
 ![Vídeo](../img/videos.png)
 
-### - Personalização por Time
+### Personalização por Time
 
 Cada time que está presente na sidebar principal do site possui sua página com a paleta de cores própria do time.
 
@@ -24,7 +24,7 @@ Cada time que está presente na sidebar principal do site possui sua página com
 
 ## Características Negativas
 
-### - Anúncios Exagerados
+### Anúncios Exagerados
 
 <p align="justify">É notável como o site é cheio de anúncios em todas as páginas que o usuário possui acesso, causando uma enorme poluição visual e afetando de maneira negativa a experiência do usuário.</p>
 
@@ -36,13 +36,13 @@ Cada time que está presente na sidebar principal do site possui sua página com
 
 ![Anuncios](../img/cheiodeanuncios.png)
 
-### - Falta de Coesão
+### Falta de Coesão
 
 <p align="justify">&emsp;&emsp;A imagem abaixo demonstra como o site não possui um certo nível de coesão, na qual a parte de cima traz notícias de esporte, toda a lateral continua sendo sobre futebol, mas a parte de baixo ja está com outra temática que possui a própria paleta de cores e sem relação alguma com o resto do conteúdo.</p>
 
 ![Coesão](../img/faltadecoesão.png)
 
-### - Design
+### Design
 
 <p align="justify">&emsp;&emsp;Como é de se perceber nas imagens de todo o documento, o site do Lance! não possui um design muito agradável com notícias "jogadas" ao usuário e cheias de anúncios que limitam a visualização de maneira exagerada. Caixas de texto minúsculas que não são agradáveis para leitura.</p>
 
